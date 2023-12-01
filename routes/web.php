@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controller\Admin\HomeController;
 use App\Http\Controllers\Articulo;
+use App\Http\Controllers\Marca;
+use App\Http\Controllers\Tienda;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +26,9 @@ Route::get('/', function () {
 
 Route::get('/diazmontiel/articulos', [Articulo::class,'index' ] 
 )->name('listado_articulos');
+
+Route::get('/diazmontiel/marcas', [Marca::class,'index' ] 
+)->name('listado_marcas');
+
+Route::get('/diazmontiel/presentacion', [Tienda::class,'index' ] 
+)->name('tienda_presetacion');

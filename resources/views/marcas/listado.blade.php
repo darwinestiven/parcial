@@ -8,10 +8,7 @@
 
 @section('content')
 
-    <div style="text-align: right;">
-        <a href="/facultades/registrar" class="btn btn-success">Registrar</a>   
-    </div>
-    <br>
+    
 
     <table class="table">
         <thead>

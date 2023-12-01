@@ -319,8 +319,13 @@ return [
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'change_password',
-            'url'  => 'admin/settings',
+            'text' => 'Marcas',
+            'url'  => 'diazmontiel/marcas',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
+            'text' => 'Presentacion',
+            'url'  => 'diazmontiel/presentacion',
             'icon' => 'fas fa-fw fa-lock',
         ],
         

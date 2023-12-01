@@ -10,11 +10,6 @@
 @section('content')
 
 
-    <div style="text-align: right;">
-        <a href="/docentes/registrar" type="button" class="btn btn-success">Registrar</a>
-    </div>
-    <br>
-
     <div class="row">
         @foreach($article as $p)
         <div class="col-md-4 mb-4">
