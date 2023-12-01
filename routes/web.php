@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controller\Admin\HomeController;
+use App\Http\Controllers\Articulo;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,8 +16,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
+// Route::get('/dashboard', [HomeController::class,'index' ] 
+// );
+
 Route::get('/diazmontiel/articulos', [Articulo::class,'index' ] 
-);
+)->name('listado_articulos');
