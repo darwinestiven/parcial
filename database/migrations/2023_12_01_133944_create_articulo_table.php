@@ -19,7 +19,7 @@ return new class extends Migration
             $table->float('precioUnitario',8,2);
             $table->text('observacion');
             $table->string('foto',255);
-            $table->string('marca',2);//llave foranea
+            $table->string('marca',5);//llave foranea
             $table->primary('referencia');
             $table->foreign('Marca')->references('idMarca')->on('Marca');//creacion llave foranea
             $table->timestamps();
