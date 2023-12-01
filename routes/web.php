@@ -24,3 +24,10 @@ Route::get('/', function () {
 
 Route::get('/diazmontiel/articulos', [Articulo::class,'index' ] 
 )->name('listado_articulos');
+
+Route::get('/diazmontiel/marcas', [Marca::class,'index' ] 
+)->name('listado_marcas');
+
+
+Route::get('/diazmontiel/marcas', [Marca::class,'index' ] 
+)->name('listado_marcas');
